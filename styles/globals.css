@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #main-wrapper {
-  @apply flex flex-col md:items-center;
+  @apply flex flex-col;
 }
 
 .page-wrapper {
@@ -12,6 +12,11 @@
 }
 
 .container-fluid {
+}
+
+.box {
+  @apply bg-neutral-900 rounded-lg pt-3;
+  @apply md:p-4 md:rounded-xl;
 }
 
 #banner-image {
@@ -33,7 +38,7 @@ body {
 }
 
 .divider {
-  @apply border-neutral-800/60;
+  @apply border-neutral-600/70;
 }
 
 button {

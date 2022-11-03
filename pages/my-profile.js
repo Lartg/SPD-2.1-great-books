@@ -50,7 +50,7 @@ function MyProfile() {
 
   return (
     <main className={classNames("flex flex-col space-y-6", "md:my-9")}>
-      <div className={classNames("bg-neutral-900 w-full rounded-lg pt-3", "md:p-7 md:rounded-xl")}>
+      <div className={classNames("box md:p-7")}>
         {/* profile row */}
         <div
           className={classNames(
@@ -82,17 +82,6 @@ function MyProfile() {
         </div>
         <ProfileTabs user={user} followers={followers} following={following} />
       </div>
-
-      {/* THESE TABS ARE IN PROGRESS */}
     </main>
   );
-}
-
-// className={classNames("","")}
-
-{
-  /*  */
-}
-{
-  /*  */
 }
